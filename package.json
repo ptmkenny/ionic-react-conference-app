@@ -18,6 +18,7 @@
     "swiper": "^9.1.1"
   },
   "scripts": {
+    "knip": "knip",
     "start": "npm run dev",
     "dev": "vite",
     "build": "tsc && vite build",
@@ -41,15 +42,17 @@
     "@testing-library/react": "^9.3.1",
     "@types/googlemaps": "^3.38.0",
     "@types/jest": "24.0.18",
+    "@types/node": "^20.12.7",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@types/react-router": "^5.1.20",
     "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^3.1.0",
     "husky": "^8.0.3",
+    "knip": "^5.11.0",
     "lint-staged": "^13.2.0",
     "prettier": "^2.8.6",
-    "typescript": "^5",
+    "typescript": "^5.4.5",
     "vite": "^4.2.0"
   },
   "lint-staged": {
